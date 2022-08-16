@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9/sha256.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+        integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+        crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+        integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+        crossorigin=""></script>
+    <script src="./script/jquery-3.6.0.min.js"></script>
+    <script src="./script/script.js" defer></script>
+
+</head>
+
+<body>
+    <div id="root">
+        <figure class="banner-container">
+            <img src="./assets/pattern-bg.png" alt="banner">
+        </figure>
+
+        <div class="map-container" id="map"></div>
+
+        <div class="input-output-view">
+            <h1>Ip address tracker</h1>
+            <form action="#" id="ip-form">
+                <input type="text" name="ip" id="ip" value="">
+                <button type="submit"><img src="./assets/icon-arrow.svg" alt=""></button>
+            </form>
+            <div class="ip-details-seprators">
+                <div class="ip-details">
+                    <div class="ip-D ip-address">
+                        <h2>ip address</h2>
+                        <h5 id="ip-tag">N/A</h5>
+                    </div>
+                    <span class="seprator"></span>
+                    <div class="ip-D location">
+                        <h2>location</h2>
+                        <h5 id="location-tag">N/A</h5>
+                    </div>
+                    <span class="seprator"></span>
+                    <div class="ip-D timezone">
+                        <h2>timezone</h2>
+                        <h5 id="timezone-tag">N/A</h5>
+                    </div>
+                    <span class="seprator"></span>
+                    <div class="ip-D isp">
+                        <h2>isp</h2>
+                        <h5 id="isp-tag">N/A</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
