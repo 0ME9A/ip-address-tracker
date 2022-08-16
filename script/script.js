@@ -50,11 +50,11 @@ $(document).ready(function () {
     }
     function getMap(lat, lng, location) {
         const myIcon = L.icon({
-            iconUrl: './assets/icon-location.svg',
+            iconUrl: './assets/icon-location.png',
             iconSize: [38, 48],
             iconAnchor: [22, 52],
             popupAnchor: [-3, -76],
-            shadowUrl: './assets/icon-location.svg',
+            shadowUrl: './assets/icon-location.png',
             shadowSize: [38, 48],
             shadowAnchor: [22, 52]
         });
