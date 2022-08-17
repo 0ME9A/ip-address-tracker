@@ -27,14 +27,14 @@ $color-very-dark-gray: #2B2B2B
     @include div(100%, 100vh)
     position: relative
     .banner-container
-        @include div(100%, 250px, $color-very-dark-gray )
+        @include div(100%, 280px, $color-very-dark-gray )
 
         img
             @include div(100%, 100%, $color-very-dark-gray )
             object-fit: cover
 
     .map-container
-        @include div(100%, calc(100vh - 250px), $color-very-dark-gray )
+        @include div(100%, calc(100vh - 280px), $color-very-dark-gray )
         background: $color-very-dark-gray
         z-index: 1
 
@@ -100,7 +100,7 @@ $color-very-dark-gray: #2B2B2B
                     h1
                         @include text(13px, 700, .1rem, uppercase, $color-dark-gray)
 
-                    h5
+                    h2
                         @include text(26px, 800, -0.008em, none, $color-very-dark-gray)
                         margin-top: 13px
 
@@ -115,6 +115,11 @@ $color-very-dark-gray: #2B2B2B
 
 @media screen and (max-width: 824px)
     #root
+        .banner-container
+            height: 300px
+        .map-container 
+            height: calc( 100% - 300px )
+        
         .input-output-view
             padding: 26px 24px
 
@@ -136,7 +141,7 @@ $color-very-dark-gray: #2B2B2B
                             letter-spacing: .15rem
                             font-size: 10px
 
-                        h5
+                        h2
                             margin-top: 7px
                             font-size: 20px
 

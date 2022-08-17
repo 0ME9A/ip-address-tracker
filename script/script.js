@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     const API_KEY = 'YXRfNlNuNEplTUQ5TXE5bmVEaGp6RnpqZUVESGVMUG8maXBBZGRyZXNz'
-    
+
     const decrypt = (data) => {
       return CryptoJS.enc.Base64.parse(data).toString(CryptoJS.enc.Utf8);
     };

@@ -15,7 +15,7 @@
 }
 #root .banner-container {
   width: 100%;
-  height: 250px;
+  height: 280px;
   background-color: #2B2B2B;
 }
 #root .banner-container img {
@@ -27,7 +27,7 @@
 }
 #root .map-container {
   width: 100%;
-  height: calc(100vh - 250px);
+  height: calc(100vh - 280px);
   background-color: #2B2B2B;
   background: #2B2B2B;
   z-index: 1;
@@ -116,7 +116,7 @@
   letter-spacing: 0.1rem;
   text-transform: uppercase;
 }
-#root .input-output-view .ip-details-seprators .ip-details .ip-D h5 {
+#root .input-output-view .ip-details-seprators .ip-details .ip-D h2 {
   font-size: 26px;
   font-weight: 800;
   color: #2B2B2B;
@@ -135,6 +135,12 @@
 }
 
 @media screen and (max-width: 824px) {
+  #root .banner-container {
+    height: 300px;
+  }
+  #root .map-container {
+    height: calc(100% - 300px);
+  }
   #root .input-output-view {
     padding: 26px 24px;
   }
@@ -156,7 +162,7 @@
     letter-spacing: 0.15rem;
     font-size: 10px;
   }
-  #root .input-output-view .ip-details-seprators .ip-details .ip-D h5 {
+  #root .input-output-view .ip-details-seprators .ip-details .ip-D h2 {
     margin-top: 7px;
     font-size: 20px;
   }
