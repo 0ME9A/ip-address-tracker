@@ -109,7 +109,7 @@
   padding-right: 40px;
   align-self: flex-start;
 }
-#root .input-output-view .ip-details-seprators .ip-details .ip-D h2 {
+#root .input-output-view .ip-details-seprators .ip-details .ip-D h1 {
   font-size: 13px;
   font-weight: 700;
   color: #969696;
@@ -152,7 +152,7 @@
     text-align: center;
     padding: 12px 36px;
   }
-  #root .input-output-view .ip-details-seprators .ip-details .ip-D h2 {
+  #root .input-output-view .ip-details-seprators .ip-details .ip-D h1 {
     letter-spacing: 0.15rem;
     font-size: 10px;
   }
