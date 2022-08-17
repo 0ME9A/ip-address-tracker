@@ -48,6 +48,9 @@ $color-very-dark-gray: #2B2B2B
         top: 0
         z-index: 5
 
+        h1
+            @include text(2rem, 500, normal, capitalize, $color-white)
+
         form
             max-width: 555px
             @include div(100%, 58px, transparent)
@@ -74,9 +77,6 @@ $color-very-dark-gray: #2B2B2B
                 button
                     background: $color-very-dark-gray
 
-        h1
-            @include text(2rem, 700, normal, captalize, $color-white)
-
         .ip-details-seprators
             max-width: 1110px
             @include div(100%, auto, $color-white)
@@ -101,7 +101,7 @@ $color-very-dark-gray: #2B2B2B
                         @include text(13px, 700, .1rem, uppercase, $color-dark-gray)
 
                     h2
-                        @include text(26px, 800, -0.008em, none, $color-very-dark-gray)
+                        @include text(26px, 500, -0.008em, none, $color-very-dark-gray)
                         margin-top: 13px
 
                 .seprator

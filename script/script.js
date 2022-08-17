@@ -8,15 +8,15 @@ $(document).ready(function () {
 
     function getIpData(ip) {
         let ipurl = ''
-        if (ip===undefined) {
-            ipurl = `https://geo.ipify.org/api/v2/country,city?apiKey=${decrypt(API_KEY)}=`
-        }
-        else{
-            ipurl = `https://geo.ipify.org/api/v2/country,city?apiKey=${decrypt(API_KEY)}=`+ip
-        }
+        // if (ip===undefined) {
+        //     ipurl = `https://geo.ipify.org/api/v2/country,city?apiKey=${decrypt(API_KEY)}=`
+        // }
+        // else{
+        //     ipurl = `https://geo.ipify.org/api/v2/country,city?apiKey=${decrypt(API_KEY)}=`+ip
+        // }
 
         // dummy ip address link for testing only
-        // ipurl = '../assets/data/data.json'
+        ipurl = '../assets/data/data.json'
         
         $.ajax({
             type: "GET",

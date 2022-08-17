@@ -44,6 +44,13 @@
   top: 0;
   z-index: 5;
 }
+#root .input-output-view h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #FFFFFF;
+  letter-spacing: normal;
+  text-transform: capitalize;
+}
 #root .input-output-view form {
   max-width: 555px;
   width: 100%;
@@ -79,13 +86,6 @@
 #root .input-output-view form:hover button {
   background: #2B2B2B;
 }
-#root .input-output-view h1 {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #FFFFFF;
-  letter-spacing: normal;
-  text-transform: captalize;
-}
 #root .input-output-view .ip-details-seprators {
   max-width: 1110px;
   width: 100%;
@@ -118,7 +118,7 @@
 }
 #root .input-output-view .ip-details-seprators .ip-details .ip-D h2 {
   font-size: 26px;
-  font-weight: 800;
+  font-weight: 500;
   color: #2B2B2B;
   letter-spacing: -0.008em;
   text-transform: none;
