@@ -9,13 +9,13 @@
     <li><a href="#screenshot">Screenshot</a></li>
     <li><a href="#links">Links</a></li>
   </ul>
-  <li><a href="#my-processes">My processes</a></li>
+  <li><strong><a href="#my-processes">My processes</a></strong></li>
   <ul>
     <li><a href="#built-with">built with</a></li>
     <li><a href="#what-i-learned">what i learned</a></li>
     <li><a href="#useful-resources">useful resources</a></li>
    </ul>
-   <li><a href="#author">Author</a></li>
+  <li><strong><a href="#author">Author</a></strong></li>
 </ul>
 
 
