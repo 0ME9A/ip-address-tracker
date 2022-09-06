@@ -1,5 +1,5 @@
 <h1>Frontend Mentor - Advice generator app solution</h1>
-<p>This is a solution to the <a href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db">Advice generator app challenge on Frontend Mentor.</a> Frontend Mentor challenges help you improve your coding skills by building realistic projects.</p>
+<p>This is a solution to the <a href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db" target='_blank' rel='noreferrer'>Advice generator app challenge on Frontend Mentor.</a> Frontend Mentor challenges help you improve your coding skills by building realistic projects.</p>
 
 <h2>Table of contents</h2>
 <ul>
@@ -32,8 +32,8 @@
 <img id="screenshot" width="500" src="https://images.unsplash.com/photo-1563467943-942a5c6e4ea1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
 <h3 id="links">Links</h3>
 <ul>
-  <li><a href="https://github.com/0ME9A/advice-generator">Solution URL</a></li>
-  <li><a href="https://0me9a.github.io/advice-generator/">Live site URL</a></li>
+  <li><a href="https://github.com/0ME9A/advice-generator" target='_blank' rel='noreferrer'>Solution URL</a></li>
+  <li><a href="https://0me9a.github.io/advice-generator/" target='_blank' rel='noreferrer'>Live site URL</a></li>
 </ul>
 <!-- list classess end -->
 
@@ -46,7 +46,7 @@
   <li>Sass</li>
   <li>Flexbox</li>
   <li>Mobile-first workflow</li>
-  <li><a href="https://reactjs.com">reactjs</a> library</li>
+  <li><a href="https://reactjs.com" target='_blank' rel='noreferrer'>reactjs</a> library</li>
   <li>Axios</li>
 </ul>
 <h3 id="what-i-learned">What i learned</h3>
@@ -57,13 +57,13 @@
 <h3 id="useful-resources">Useful resources</h3>
 <ul>
   <li>
-    <a href="https://fonts.google.com/">google</a> fonts
+    <a href="https://fonts.google.com/" target='_blank' rel='noreferrer'>google</a> fonts
   </li>
 </ul>
 <h3 id="author">Author</h3>
 <ul>
   <li>OMEGA</li>
-  <li>Website <a href="https://ome9a.com">OMEGA</a></li>
-  <li>Front-end Mentor<a href="https://www.frontendmentor.io/profile/0me9a">@0ME9A</a></li>
+  <li>Website <a href="https://ome9a.com" target='_blank' rel='noreferrer'>OMEGA</a></li>
+  <li>Front-end Mentor<a href="https://www.frontendmentor.io/profile/0me9a" target='_blank' rel='noreferrer'>@0ME9A</a></li>
 </ul>
 <!-- list classess end -->
