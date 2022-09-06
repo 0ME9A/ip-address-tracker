@@ -29,8 +29,7 @@
   <li>See hover states for all interactive elements on the page</li>
   <li>Generate a new piece of advice by clicking the dice icon</li>
 </ul>
-<h3 id="screenshot">Screenshot</h3>
-<img width="500" src="https://images.unsplash.com/photo-1563467943-942a5c6e4ea1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+<img id="screenshot" width="500" src="https://images.unsplash.com/photo-1563467943-942a5c6e4ea1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
 <h3 id="links">Links</h3>
 <ul>
   <li><a href="https://github.com/0ME9A/advice-generator">Solution URL</a></li>
