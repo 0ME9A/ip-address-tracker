@@ -1,4 +1,3 @@
-<body>
 <h1>Frontend Mentor - Advice generator app solution</h1>
 <p>This is a solution to the <a href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db">Advice generator app challenge on Frontend Mentor.</a> Frontend Mentor challenges help you improve your coding skills by building realistic projects.</p>
 
@@ -21,7 +20,7 @@
 
 
 
-    <!-- list classess start -->
+<!-- list classess start -->
 <h2 id="overview">Overview</h2>
 <h3>The challenges</h3>
 <p>Users shoud be able to:</p>
@@ -37,10 +36,10 @@
   <li><a href="https://github.com/0ME9A/advice-generator">Solution URL</a></li>
   <li><a href="https://0me9a.github.io/advice-generator/">Live site URL</a></li>
 </ul>
-    <!-- list classess end -->
+<!-- list classess end -->
 
 
-    <!-- list classess start -->
+<!-- list classess start -->
 <h2 id="my-processes">My processes</h2>
 <h3 id="built-with">Built with</h3>
 <ul>
@@ -68,4 +67,4 @@
   <li>Website <a href="https://ome9a.com">OMEGA</a></li>
   <li>Front-end Mentor<a href="https://www.frontendmentor.io/profile/0me9a">@0ME9A</a></li>
 </ul>
-    <!-- list classess end -->
+<!-- list classess end -->
