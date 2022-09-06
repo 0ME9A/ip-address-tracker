@@ -51,7 +51,7 @@
 </ul>
 <h3 id="what-i-learned">What i learned</h3>
 <ul>
-  <li>It was amazing to build a fully functional wroking website with using multiple apis in a single webapp. I learned a lot about <span> ipify </span> and <span> leaflet api </span> and earned a lot of experance. And now I know how to implement map in a website or app this was new for me And I enjoyed it.</li>
+  <li>It was amazing to build a fully functional wroking website with using multiple apis in a single webapp. I learned a lot about <span>ipify</span> and <span>leaflet api</span> and earned a lot of experance. And now I know how to implement map in a website or app this was new for me And I enjoyed it.</li>
 </ul>
 
 <h3 id="useful-resources">Useful resources</h3>
